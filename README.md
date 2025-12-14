@@ -36,7 +36,7 @@ npm start
 
 The server will run on `http://localhost:3001`
 
-**Default Admin Credentials:**
+**Default Admin Credentials(for testing only):**
 - Username: `admin`
 - Password: `admin123`
 
