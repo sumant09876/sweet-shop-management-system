@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Database
+*.db
+*.db-journal
+
+# Environment variables
+.env
+.env.local
+
+# Build files
+frontend/build/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Helper/documentation files (not needed in repo)
+ASSIGNMENT_CHECKLIST.md
+CHANGES_SUMMARY.md
+QUICK_FIX.md
+COMMIT_PLAN.md
+PROJECT_STATUS.md
+FIXES_APPLIED.md
+SETUP.md
+
