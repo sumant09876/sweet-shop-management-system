@@ -1,0 +1,97 @@
+.sweet-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.sweet-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sweet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sweet-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.category-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.sweet-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sweet-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.quantity {
+  font-size: 14px;
+  color: #28a745;
+  font-weight: 600;
+}
+
+.quantity.out-of-stock {
+  color: #dc3545;
+}
+
+.sweet-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.admin-actions .btn {
+  flex: 1;
+  min-width: 70px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.restock-form {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+}
+
+.restock-input {
+  flex: 1;
+  padding: 8px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+
